@@ -77,3 +77,29 @@ button:hover {
     padding: 1rem;
     background-color: #2C2229;
 }
+
+.project_tile {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-tile:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.project-tile>img {
+    width: 100%;
+}
+
+.project-tile>div {
+    padding: 1.75rem;
+    background-color: #000000;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.project-tile>div>a {
+    color: #ffd400;
+}
