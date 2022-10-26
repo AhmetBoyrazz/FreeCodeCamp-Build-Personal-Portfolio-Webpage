@@ -21,3 +21,27 @@ body {
     font-family: 'Roboto Mono', monospace;
     font-size: 16px;
 }
+
+#navbar {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #720403;
+}
+
+#navbar>a {
+    color: #eadeda;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: .5rem;
+    margin: 1rem;
+}
+
+#navbar>a:hover {
+    background-color: #002500;
+    letter-spacing: .125rem;
+    margin-top: .125rem;
+    transition: 0.3s ease;
+}
