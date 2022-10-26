@@ -137,3 +137,46 @@ button:hover {
     margin-right: 1rem;
     transition: transform .3s;
 }
+
+#links>div:hover {
+    transform: scale(1.1);
+}
+
+#profile-link {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #eadeda;
+    margin: 0 2rem;
+}
+
+#profile-link:hover {
+    color: #ffd400;
+}
+
+#credit {
+    border-top: 2px solid red;
+    padding: 2rem;
+}
+
+#credit>p {
+    color: #eadeda;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    #projects {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    body,
+    #footer,
+    #navbar,
+    #phrase {
+        width: 100%;
+    }
+
+    header>h1 {
+        text-align: center;
+    }
+}
