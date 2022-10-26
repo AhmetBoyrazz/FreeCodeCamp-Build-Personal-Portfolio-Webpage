@@ -103,3 +103,37 @@ button:hover {
 .project-tile>div>a {
     color: #ffd400;
 }
+
+#footer {
+    display: grid;
+    grid-template-rows: 1fr .5fr .1fr;
+    align-items: center;
+    height: 100vh;
+    background-color: #13101b;
+    color: #ffd400;
+}
+
+#phrase {
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+#phrase>h2 {
+    text-align: center;
+}
+
+#phrase>p {
+    text-align: center;
+}
+
+#links {
+    justify-self: center;
+    transition: transform .3s;
+}
+
+#links>div {
+    display: inline-block;
+    margin-right: 1rem;
+    transition: transform .3s;
+}
